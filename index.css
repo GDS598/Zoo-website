@@ -1,0 +1,53 @@
+/*display header list in line without bullet points */
+header nav ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 10px;
+
+    /* increase font size of list to make it stand out better */
+    font-size: 20px;
+}
+
+/* adjust header layout */
+header h1 {
+    text-align: left;
+}
+
+header nav {
+    text-align: right;
+}
+
+/* adjust fig img size */
+figure img {
+    height: 300px;
+    width: 625px;
+}
+
+/* create extra separation between <main> and <footer> */
+footer {
+    margin-top: 50px;
+}
+
+/* display footer lists in-line */
+footer nav ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* align footer center */
+footer {
+    text-align: center;
+}
